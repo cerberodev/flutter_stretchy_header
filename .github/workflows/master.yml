@@ -18,7 +18,7 @@ jobs:
       - name: 'Check Flutter Version'
         run: flutter --version
       - name: 'Dry-run'
-        uses: ilteoood/actions-flutter-pub-publisher@master
+        uses: ilteoood/actions-flutter-pub-publisher@v1.4.1
         with:
           credential: ${{secrets.CREDENTIAL_JSON}}
           flutter_package: true
